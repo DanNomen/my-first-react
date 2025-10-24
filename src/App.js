@@ -181,7 +181,7 @@ export default function Portfolio() {
       {/* Contact Section */}
       <section id="contact" style={styles.section}>
         <h2 style={styles.sectionTitle}>
-          Me <span style={styles.redText}>Contacter</span>
+          Nous <span style={styles.redText}>Contacter</span>
         </h2>
         <div style={styles.contactForm}>
           <div style={styles.formGroup}>
