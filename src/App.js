@@ -143,7 +143,8 @@ export default function Portfolio() {
           Besoin d'<span style={styles.redText}>Aide</span>?
         </h2>
         <p style={{...styles.heroSubtitle, textAlign: 'center', maxWidth: '800px', margin: '0 auto 60px'}}>
-          <strong>MalagasyReact</strong> est prêt à vous accompagner dans vos projets web et mobile.
+                    <strong><span style={styles.redText}>Malagasy</span>
+          <span style={styles.whiteText}>React</span></strong> est prêt à vous accompagner dans vos projets web et mobile.
             Que ce soit pour du développement sur mesure, du conseil stratégique ou des formations personnalisées,
             nous mettons notre expertise au service de vos ambitions numériques.
         </p>
@@ -245,7 +246,7 @@ export default function Portfolio() {
 
   <div style={styles.aboutContent}>
     <p style={styles.aboutText}>
-      Né à Madagascar, <strong>MalagasyReact</strong> incarne la fusion entre
+      Né à Madagascar en 2025, <strong><span style={styles.redText}>Malagasy</span>React</strong> incarne la fusion entre
       <strong> innovation technologique </strong> et <strong>créativité locale</strong>.
     </p>
 
@@ -257,7 +258,7 @@ export default function Portfolio() {
     </p>
 
     <p style={styles.aboutText}>
-      L’objectif : <strong>faire rayonner le savoir-faire malgache</strong> dans le monde du numérique.
+      <strong>Faire rayonner le savoir-faire malagasy</strong> dans le monde du numérique.
     </p>
 
     {/* Social Links */}
