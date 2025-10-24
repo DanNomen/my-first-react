@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
+
 
 // N'oublie pas d'ajouter ce lien dans ton index.html ou Head:
 // <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
@@ -259,37 +261,43 @@ export default function Portfolio() {
     </p>
 
     {/* Social Links */}
-    <div style={styles.socialLinks}>
-      <a
-        href="#"
-        style={styles.socialIcon}
-        onMouseEnter={(e) => (e.target.style.transform = 'scale(1.2)')}
-        onMouseLeave={(e) => (e.target.style.transform = 'scale(1)')}
-        title="Portfolio"
-      >
-        🔗
-      </a>
+  <div style={styles.socialLinks}>
+  <a
+    href="https://www.facebook.com/"
+    style={styles.socialIcon}
+    onMouseEnter={(e) => (e.target.style.transform = 'scale(1.2)')}
+    onMouseLeave={(e) => (e.target.style.transform = 'scale(1)')}
+    title="Facebook"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaFacebook size={24} color="#1877f2" />
+  </a>
 
-      <a
-        href="#"
-        style={styles.socialIcon}
-        onMouseEnter={(e) => (e.target.style.transform = 'scale(1.2)')}
-        onMouseLeave={(e) => (e.target.style.transform = 'scale(1)')}
-        title="LinkedIn"
-      >
-        💼
-      </a>
+  <a
+    href="https://www.linkedin.com/"
+    style={styles.socialIcon}
+    onMouseEnter={(e) => (e.target.style.transform = 'scale(1.2)')}
+    onMouseLeave={(e) => (e.target.style.transform = 'scale(1)')}
+    title="LinkedIn"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin size={24} color="#0a66c2" />
+  </a>
 
-      <a
-        href="#"
-        style={styles.socialIcon}
-        onMouseEnter={(e) => (e.target.style.transform = 'scale(1.2)')}
-        onMouseLeave={(e) => (e.target.style.transform = 'scale(1)')}
-        title="Contact"
-      >
-        📧
-      </a>
-    </div>
+  <a
+    href="https://www.instagram.com/"
+    style={styles.socialIcon}
+    onMouseEnter={(e) => (e.target.style.transform = 'scale(1.2)')}
+    onMouseLeave={(e) => (e.target.style.transform = 'scale(1)')}
+    title="Instagram"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaInstagram size={24} color="#e1306c" />
+  </a>
+</div>
   </div>
 </section>
 
